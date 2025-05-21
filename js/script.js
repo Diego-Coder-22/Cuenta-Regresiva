@@ -24,7 +24,7 @@ const cuentaAtras = document.getElementById("cuenta-atras");
 const welcome = document.getElementById("welcome");
 const changingTextWrapper = document.querySelector(".changing-text").closest("div");
 
-const lanzamiento = new Date("2025-05-25T20:00:00Z").getTime();
+const lanzamiento = new Date("2025-05-25T18:00:00Z").getTime();
 
 const interval = setInterval(() => {
   const ahora = new Date().getTime();
